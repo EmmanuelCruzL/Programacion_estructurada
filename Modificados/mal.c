@@ -3,7 +3,7 @@
                 Programa C para mostrar Error de peligro
                             programa_uno.c
                             Compilacion:
-                    gcc -Wall  programa_dos.c -o programa_dos
+                  gcc -Wall  programa_dos.c -o programa_dos
   ***************************************************************************/
 
 #include <stdio.h>
