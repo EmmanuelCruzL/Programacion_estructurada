@@ -1,15 +1,29 @@
+/*************************************************************************
+                        Emmanuel Cruz Lopez
+                Programa donde se utliza la libreria 
+                            ncurse    
+                            ncurse.c
+                        Compilación:
+                            Linux:
+            gcc -Wall  ncurse.c -o ncurse
+                            Windows:
+            gcc -Wall  ncurse.c  -lncurses -o ncurse.exe
+  ***************************************************************************/
+
 /*dibujar_cuadro.c
 ESTE PROGRAMA DIBUJA UN CUADRO. UTILIZA LA LIBRERIA curses.h QUE SUSTITUYE DE ALGUNA FORMAA LA      CONIO.H DEL VIEJO TURBO C
 COMPILE ESTE PROGRAMA CON LA INSTRUCCION:  gcc dibujar_cuadro.c -o ejecutable -lncurses*/
 #include <curses.h> //Incluiremos una librería a nuestro sistemas
 #include <stdio.h>
+
+
 void salir(void); //Esta funcion hará que nuestro programa se cierre
 int main(void)
 {
     int i;
     char c;
     initscr(); /*Esta función  inicializa  ncurses. Para todos los programas
-                  debemos siempre inicializar  ncurses y luego finalizarla, como
+            debemos siempre inicializar  ncurses y luego finalizarla, como
                  veremos adelante. */
     c = 95;    //caracter ascci horizontal
     for (i = 1; i <= 120; i++)
