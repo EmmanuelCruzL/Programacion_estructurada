@@ -13,9 +13,9 @@
 /*dibujar_cuadro.c
 ESTE PROGRAMA DIBUJA UN CUADRO. UTILIZA LA LIBRERIA curses.h QUE SUSTITUYE DE ALGUNA FORMAA LA      CONIO.H DEL VIEJO TURBO C
 COMPILE ESTE PROGRAMA CON LA INSTRUCCION:  gcc dibujar_cuadro.c -o ejecutable -lncurses*/
-#include <curses.h> //Incluiremos una librería a nuestro sistemas
-#include <stdio.h>
 
+#include <ncurses.h> //Incluiremos una librería a nuestro sistemas
+#include <stdio.h>
 
 void salir(void); //Esta funcion hará que nuestro programa se cierre
 int main(void)
