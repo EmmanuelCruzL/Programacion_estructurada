@@ -18,7 +18,7 @@ Repositorio con los ejercicios de la asignatura **Programación estructurada (1e
 Para descargar ve al directorio raíz donde quieras colocarlo y escribe el siguiente comando:
 
 ```console
-git clone https://github.com/ivanmirandastavenuiter/ejercicios-programacion.git
+git clone https://github.com/EmmanuelCruzL/Programacion_estructurada.git
 ```
 O  descargalo directerma en Zip
 
